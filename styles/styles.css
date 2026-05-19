@@ -32,3 +32,26 @@ footer {
     border-top: 1px solid black;
     text-align: center;
 }
+
+nav {
+    background-color: white;
+    padding: 1px;
+}
+
+nav a {
+    color: lightgray;
+    padding: 2px;
+    display: block;
+}
+
+a main img {
+    width: auto;
+    height: auto;
+    border: 0;
+    padding: 0;
+    box-shadow: 0;
+}
+
+h1 {
+    color: black;
+}
