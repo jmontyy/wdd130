@@ -4,13 +4,8 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 1rem;
-    background-color: gray;
-    color: white;
     text-align: center;
-
+    position: relative;
 }
 
 aside img {
@@ -18,9 +13,18 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    color: black;
+    background-color: white;
+}
+
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
 
 p {
@@ -54,4 +58,19 @@ a main img {
 
 h1 {
     color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: gray;
+    color: white;
 }
