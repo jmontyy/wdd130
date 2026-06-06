@@ -60,6 +60,13 @@ article {
     height: auto;
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -118,6 +125,10 @@ header nav a {
     margin: 3px;
 }
 
+main {
+    position: relative;
+}
+
 header img {
     width: 64px;
 }
@@ -156,10 +167,15 @@ footer {
 }
 
 footer nav {
+    display: flex;
     background-color: var(--primary-color-light);
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
+}
+
+footer nav * {
+    margin: 1px;
 }
 
 .history div {
