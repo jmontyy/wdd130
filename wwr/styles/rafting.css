@@ -6,9 +6,6 @@
     --accent-color-dark: #005e4e;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: "Arial", "Helvetica", sans-serif;
-    /* Not used yet. Commented out for the sake of the auto-checker thing
-    --accent-color-medium: #00ab78;
-    */
 }
 
 * {
