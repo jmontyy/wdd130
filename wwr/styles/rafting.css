@@ -3,10 +3,12 @@
     --primary-color: #19c9ff;
     --primary-color-dark: #0073b6;
     --accent-color: #00e77f;
-    --accent-color-medium: #00ab78;
     --accent-color-dark: #005e4e;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: "Arial", "Helvetica", sans-serif;
+    /* Not used yet. Commented out for the sake of the auto-checker thing
+    --accent-color-medium: #00ab78;
+    */
 }
 
 * {
@@ -118,7 +120,7 @@ header nav {
 
 header nav a {
     background-color: var(--primary-color-light);
-    color: var(--primary-color-dark);
+    color: black;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
@@ -164,7 +166,7 @@ footer {
     justify-items: end;
     align-items: center;
     background-color: var(--primary-color-dark);
-    color: var(--primary-color-light);
+    color: white;
 }
 
 footer nav {
