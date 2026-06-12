@@ -183,3 +183,82 @@ footer nav * {
     grid-template-columns: 1fr 240px 1fr;
     align-items: center;
 }
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    text-align: right;
+
+}
+
+.contact div {
+    text-align: left;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.twowide {
+    grid-column: span 2;
+}
+
+.flexRow {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+    padding: 2px;
+}
+
+label {
+    height: min-content;
+}
+
+.employee {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.employee h1 {
+    grid-column: span 3;
+    padding: 10px;
+}
+
+.employee img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.employee p {
+    margin: 5px;
+    padding: 0;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.address * {
+    margin: 2px;
+    padding: 0;
+}
