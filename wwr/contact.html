@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafting & Co. | Contact</title>
+    <title>Rafting & Co. | Contact Us</title>
     <meta name="author" content="Josh Montgomery">
     <meta name="description"
       content="How to contact Rafting & Co for questions, concerns, and booking">
@@ -28,7 +28,6 @@
             <p>Kolob, California</p>
             <p>(555) 555-5555</p>
             <p>raftingandco@rafting.com</p>
-            </p>
         </section>
         <section class="form">
             <div class="map">
@@ -39,31 +38,31 @@
             </div>
             <form class="contact">
                 <label for="name">Name</label>
-                <input id="name" type="text" placeholder="Type here" />
+                <input id="name" type="text" placeholder="Type here" name="contact" />
                 <label for="email">email</label>
-                <input id="email" type="email" placeholder="Type here" />
+                <input id="email" type="email" placeholder="Type here" name="contact" />
 
-                <label for="purpose">Message Purpose</label>
+                <p>Message Purpose</p>
                 <div id="purpose">
-                    <input id="inquiry" type="radio" name="purposeradio" />
+                    <input id="inquiry" type="radio" name="contact" />
                     <label for="inquiry">General Inquiry</label><br>
 
-                    <input id="question" type="radio" name="purposeradio" />
+                    <input id="question" type="radio" name="contact" />
                     <label for="question">Reservation Question</label><br>
 
-                    <input id="suggestion" type="radio" name="purposeradio" />
+                    <input id="suggestion" type="radio" name="contact" />
                     <label for="suggestion">Website Suggestion</label><br>
                 </div>
                 <div class="twowide flexColumn">
                     <label for="message">Message</label>
-                    <textarea id="message" placeholder="Type here"> </textarea>
+                    <textarea id="message" placeholder="Type here" name="contact"> </textarea>
                 </div>
                 <div class="twowide flexRow">
-                    <input id="suggestion" type="checkbox" /><label for="suggestion"
-                      name="purpose">Subscribe to monthly newsletter</label><br>
+                    <input id="subscribe" type="checkbox" name="contact" />
+                    <label for="subscribe">Subscribe to monthly newsletter</label><br>
                 </div>
                 <div class="twowide flexColumn">
-                    <input id="submit" type="submit" value="Get in touch!" />
+                    <input id="submit" type="submit" value="Get in touch!" name="contact" />
                 </div>
             </form>
         </section>
