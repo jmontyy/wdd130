@@ -210,13 +210,20 @@ footer nav * {
     justify-content: center;
     align-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .flexColumn {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     text-align: center;
+    margin: 0;
+}
+
+.flexColumn * {
+    text-align: center;
+    width: 100%;
 }
 
 input {
