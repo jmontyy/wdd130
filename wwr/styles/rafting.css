@@ -269,3 +269,104 @@ label {
     margin: 2px;
     padding: 0;
 }
+
+.signup {
+    display: flex;
+}
+
+.signup * {
+    margin: 16px;
+    width: 100%
+}
+
+.callToAction {
+    background-color: var(--accent-color-dark);
+    border: 1px solid var(--accent-color);
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.callToAction p {
+    margin: 15px auto 0 auto;
+}
+
+.callToAction a {
+    width: 50%;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color-dark);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 auto 15px auto;
+    text-decoration: none;
+}
+
+.more {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.more * {
+    padding: 0 10px;
+    width: 100%;
+}
+
+.more figure {
+    text-align: center;
+}
+
+.fullwidth {
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--primary-color-dark);
+    background-color: var(--accent-color-dark);
+    color: white;
+    border-style: solid;
+    border-width: 2px 0;
+    border-color: var(--accent-color);
+}
+
+.fullwidth * {
+    color: white;
+}
+
+.trips div {
+    display: flex;
+}
+
+.trips h2 {
+    margin-bottom: 10px;
+}
+
+.trips div div {
+    display: inline-block;
+    place-items: center;
+}
+
+.trips div div img {
+    max-width: 200px;
+}
+
+.triptable * {
+    color: black;
+    border: 1px black solid;
+    margin: 0px;
+    padding: 5px;
+}
+
+.alltrips {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fullwidth a {
+    font-size: x-large;
+}
